@@ -1,0 +1,15 @@
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\bin\Debug\net6.0\ConversorMoedas.exe
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\bin\Debug\net6.0\ConversorMoedas.deps.json
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\bin\Debug\net6.0\ConversorMoedas.runtimeconfig.json
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\bin\Debug\net6.0\ConversorMoedas.dll
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\bin\Debug\net6.0\ref\ConversorMoedas.dll
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\bin\Debug\net6.0\ConversorMoedas.pdb
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.csproj.AssemblyReference.cache
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.AssemblyInfoInputs.cache
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.AssemblyInfo.cs
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.dll
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\obj\Debug\net6.0\ref\ConversorMoedas.dll
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.pdb
+C:\Users\eduar\Desktop\Eduardo\Programação (Python, C#, SQL, Git & GitHub)\GitHub\C#\ConversorMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.genruntimeconfig.cache
