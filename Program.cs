@@ -25,10 +25,9 @@ namespace ConversorMoedas
             {
                 Conversor c = new Conversor(moedaAtual, moedaConverte, valorAtual);
             }
-            
             else
             {
-                throw new Exception("\n\n Você digitou errado o nome da moeda, feche o programa e tente novamente \n");
+                throw new Exception("\n\n Você digitou errado o nome de alguma moeda, feche o programa e tente novamente \n");
             }
         }
     }
