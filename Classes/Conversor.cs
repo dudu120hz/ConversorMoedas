@@ -50,13 +50,6 @@ namespace ConversorMoedas.Classes
                 Console.WriteLine($"\n A moeda {atual} convertida em {converte}");
                 Console.WriteLine($" fica no valor de ${valorConverte}");
             }
-
-            // Atalhos do VSCode
-            // Seleção de comentário:
-            // Ctrl+K, Ctrl+C
-
-            // Remover comentário da seleção:
-            // Ctrl+K, Ctrl+U
         }   
     }
 }
