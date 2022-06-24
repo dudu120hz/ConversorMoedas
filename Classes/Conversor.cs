@@ -7,48 +7,71 @@ namespace ConversorMoedas.Classes
         public Conversor(string atual, string converte, double valor)
         {
             double valorAtual = valor;
-            double valorConverte = 0.0;
+            double valorConverte;
 
-            if(atual == "real" && converte == "dolar" || atual == "real" && converte == "dólar")
+            if(atual == "real")
             {
-                valorConverte = valorAtual * 0.19;
-                Console.WriteLine($"\n A moeda {atual} convertida em {converte}");
-                Console.WriteLine($" fica no valor de ${valorConverte}");
+                if(converte == "dolar" || converte == "dólar")
+                {
+                    valorConverte = valorAtual * 0.19;
+                    converte = "dólar";
+                    Console.WriteLine($"\n A moeda {atual} convertida em {converte}");
+                    Console.WriteLine($" fica no valor de ${valorConverte}");
+                }
+                else if(converte == "euro")
+                {
+                    valorConverte = valorAtual * 0.18;
+                    Console.WriteLine($"\n A moeda {atual} convertida em {converte}");
+                    Console.WriteLine($" fica no valor de €{valorConverte}");
+                }
+                else
+                {
+                    throw new Exception("\n\n Você digitou errado o nome de alguma moeda, feche o programa e tente novamente \n");
+                }
             }
-
-            else if(atual == "real" && converte == "euro")
+            else if(atual == "dolar" || atual == "dólar")
             {
-                valorConverte = valorAtual * 0.18;
-                Console.WriteLine($"\n A moeda {atual} convertida em {converte}");
-                Console.WriteLine($" fica no valor de €{valorConverte}");
+                atual = "dólar";
+                if(converte == "real")
+                {
+                    valorConverte = valorAtual * 5.14;
+                    Console.WriteLine($"\n A moeda {atual} convertida em {converte}");
+                    Console.WriteLine($" fica no valor de R${valorConverte}");
+                }
+                else if(converte == "euro")
+                {
+                    valorConverte = valorAtual * 0.95;
+                    Console.WriteLine($"\n A moeda {atual} convertida em {converte}");
+                    Console.WriteLine($" fica no valor de €{valorConverte}");
+                }
+                else
+                {
+                    throw new Exception("\n\n Você digitou errado o nome de alguma moeda, feche o programa e tente novamente \n");
+                }   
             }
-
-            else if(atual == "dolar" && converte == "real" || atual == "dólar" && atual == "real")
+            else if(atual == "euro")
             {
-                valorConverte = valorAtual * 5.14;
-                Console.WriteLine($"\n A moeda {atual} convertida em {converte}");
-                Console.WriteLine($" fica no valor de R${valorConverte}");
+                if(converte == "real")
+                {
+                    valorConverte = valorAtual * 5.40;
+                    Console.WriteLine($"\n A moeda {atual} convertida em {converte}");
+                    Console.WriteLine($" fica no valor de R${valorConverte}");
+                }
+                else if(converte == "dolar" || converte == "dólar")
+                {
+                    valorConverte = valorAtual * 1.05;
+                    converte = "dólar";
+                    Console.WriteLine($"\n A moeda {atual} convertida em {converte}");
+                    Console.WriteLine($" fica no valor de ${valorConverte}");
+                }
+                else
+                {
+                    throw new Exception("\n\n Você digitou errado o nome de alguma moeda, feche o programa e tente novamente \n");   
+                }
             }
-
-            else if(atual == "dolar" && converte == "euro" || atual == "dólar" && atual == "euro")
+            else
             {
-                valorConverte = valorAtual * 0.95;
-                Console.WriteLine($"\n A moeda {atual} convertida em {converte}");
-                Console.WriteLine($" fica no valor de €{valorConverte}");
-            }
-
-            else if(atual == "euro" && converte == "real")
-            {
-                valorConverte = valorAtual * 5.40;
-                Console.WriteLine($"\n A moeda {atual} convertida em {converte}");
-                Console.WriteLine($" fica no valor de R${valorConverte}");
-            }
-
-            else if(atual == "euro" && converte == "dolar" || atual == "euro" && atual == "dólar")
-            {
-                valorConverte = valorAtual * 1.05;
-                Console.WriteLine($"\n A moeda {atual} convertida em {converte}");
-                Console.WriteLine($" fica no valor de ${valorConverte}");
+                throw new Exception("\n\n Você digitou errado o nome de alguma moeda, feche o programa e tente novamente \n");
             }
         }   
     }
